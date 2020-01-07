@@ -15,6 +15,9 @@ class Person
   end
 
   class PartnerError < StandardError
+    def message
+      "you must give the get_married method an arguement of an istance of the person class!"
+    end
   end
 end
 
